@@ -1,0 +1,103 @@
+@media screen and (max-width: 513px){
+    div .button {
+        padding: 10px;
+    }
+
+    div.history {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+
+    /* properti pendukung */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.button {
+    flex-basis: 25%;
+
+    /* properti pendukung */
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;
+    padding: 40px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+}
+
+.button:hover{
+    font-weight: bold;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.display {
+    color: white;
+    background-color: #333333;
+    font-size: 2em;
+    padding: 10px 20px;
+    border: 1px solif black;
+    width: 100%;
+}
+
+.negative,
+.operator,
+.equals {
+    background: orange;
+}
+
+.history {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 16px;
+}
+
+
+th {
+    background-color: orange;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d2d2d2;
+}
+
